@@ -1,17 +1,20 @@
 public class TrigonometricCalculator {
-    public double sine(double x){
-        return(0);
+    public double sine(double value){
+        return(Math.sin(value));
     }
-    public double cosine(double x){
-        return(0);
+    public double cosine(double value){
+        return(Math.cos(value));
     }
-    public double tangent(double x){
-        return (0);
+    public double tangent(double value){
+        return (Math.tan(value));
     }
-    public double arccosine(double x) {
-        return (0);
+    public double arccosine(double value) {
+        return (Math.acos(value));
     }
-    public double arctangent(double x){
-        return (0);
+    public double arcsine(double value){
+        return (Math.asin(value));
+    }
+    public double arctangent(double value){
+        return (Math.acos(value));
     }
 }

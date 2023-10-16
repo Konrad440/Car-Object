@@ -3,16 +3,16 @@ public class ScientificCalculator {
 
     private double holdValue;
 
-    public double exp(double e){
-        return e*e;
+    public double exp(double value){
+        return(Math.exp(value));
     }
-    public double log(double x) {
-        return x;
+    public double log(double value) {
+        return (Math.log(value));
     }
-    public void putValueInMemory(double y){
-
+    public final void putValueInMemory(double value){
+        holdValue = value;
     }
-    public double getValueFromMemory(){
-        return (0);
+    public final double getValueFromMemory(){
+        return (holdValue);
     }
 }

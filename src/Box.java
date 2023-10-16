@@ -22,6 +22,10 @@ public class Box {
         this(side,side,side);
     }
 
+    public Box() {
+
+    }
+
     public double getWidth() {
         return width;
     }
@@ -58,7 +62,7 @@ public class Box {
     }
     public void printBox(){
         if(width <= 0 || height <= 0 || length <= 0){
-            System.out.println("Box contains invalid attributes");
+            System.out.println("Length must be greater than 0");
         } else {
             System.out.println("Length = " + length);
             System.out.println("Height = " + height);
